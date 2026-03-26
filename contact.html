@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | BioScholar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-emerald-50">
+
+    <div class="container mx-auto px-6 py-20 max-w-2xl">
+        <div class="bg-white p-10 rounded-3xl shadow-xl">
+            <h2 class="text-3xl font-bold text-slate-900 mb-2">Request Academic Help</h2>
+            <p class="text-slate-500 mb-8">Fill out the details of your Biology research or assignment below.</p>
+            
+            <form class="space-y-6">
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Full Name</label>
+                        <input type="text" class="w-full p-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-emerald-500 outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Academic Level</label>
+                        <select class="w-full p-3 border border-slate-200 rounded-xl outline-none">
+                            <option>BSC Biology</option>
+                            <option>MSC Biology</option>
+                            <option>Other Life Sciences</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-slate-700 mb-2">Specific Field (e.g. Microbiology, Botany, Genetics)</label>
+                    <input type="text" placeholder="e.g. Molecular Genetics" class="w-full p-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-emerald-500 outline-none">
+                </div>
+
+                <div>
+                    <label class="block text-sm font-semibold text-slate-700 mb-2">Project Details</label>
+                    <textarea rows="4" class="w-full p-3 border border-slate-200 rounded-xl focus:ring-2 focus:ring-emerald-500 outline-none" placeholder="Describe your topic or research problem..."></textarea>
+                </div>
+
+                <button class="w-full bg-emerald-600 text-white font-bold py-4 rounded-xl hover:bg-emerald-700 transition shadow-lg shadow-emerald-200">
+                    Send Request
+                </button>
+                <a href="index.html" class="block text-center text-slate-500 hover:underline">Back to Home</a>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
